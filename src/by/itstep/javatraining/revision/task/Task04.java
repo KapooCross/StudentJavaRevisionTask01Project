@@ -26,9 +26,10 @@ package by.itstep.javatraining.revision.task;
 
 public class Task04 {
     public static int task04(int number) {
-        if (number > 9 || number < 0) {
-            return Math.abs((number / 100) % 10);
-        }
-        return 0;
+        return (number > 9 || number < 0) ? Math.abs((number / 100) % 10) : 0;
+//        if (number > 9 || number < 0) {
+//            return Math.abs((number / 100) % 10);
+//        }
+//        return 0;
     }
 }

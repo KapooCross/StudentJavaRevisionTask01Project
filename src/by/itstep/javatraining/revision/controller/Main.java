@@ -3,6 +3,13 @@ package by.itstep.javatraining.revision.controller;
 import by.itstep.javatraining.revision.task.Task01;
 import by.itstep.javatraining.revision.test.TaskTester;
 
+
+//share - впервый раз залить на сервер
+//push - внести изменения в проект / зафиксировать
+//clone / клонировать - добавление проекта с github на любой пк
+//фетчинг - проверка на наличие новых изменений на гитхабе
+//pull / пуллинг - достать и применить изменения с гитхаба
+
 public class Main {
     public static void main(String[] args) {
         String result = TaskTester.testingTask01();
